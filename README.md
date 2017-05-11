@@ -28,9 +28,16 @@ Resolving deltas: 100% (6/6), done.
 
 ## Basic Snapshotting
 | Command        | Description           | Example  |
-| -------------- |:---------------------:| --------:|
+| -------------- |---------------------| --------|
 | `git add` | Adds a file to the staging area | `git add main.rb` |
 | `git status` | View the status of files in the working directory and staging area | `git status` |
 | `git diff` | Shows differences between modified and staged files | `git diff` |
 | `git commit` | Records a snapshot of the staging area | `git commit -m "Final commit. Goodbye cruel world."` |
 | `git rm` | Removes files from the staging area | `git rm compromising_photos.zip` |
+
+## Branching and Merging
+| Command        | Description           | Example  |
+| -------------- |---------------------| --------|
+| `git branch` | List, create and manage branches | `git branch top-secret` |
+| `git merge` | Merge a branch into your current one | `git merge dev` |
+| `git log` | Show a branch's history | `git log --oneline --graph` |
