@@ -41,3 +41,12 @@ Resolving deltas: 100% (6/6), done.
 | `git branch` | List, create and manage branches | `git branch top-secret` |
 | `git merge` | Merge a branch into your current one | `git merge dev` |
 | `git log` | Show a branch's history | `git log --oneline --graph` |
+
+## Sharing and Updating
+| Command        | Description           | Example  |
+| -------------- |---------------------| --------|
+| `git remote add` | Add a new remote repository | `git remote add origin git@github.com:tbscanlon/git-cheatsheet.git` |
+| `git remote rm` | Removes an exisiting remote alias | `git remote rm origin` |
+| `git fetch` | Download new branches and data from a remote repo | `git fetch origin` |
+| `git pull` | Fetch from a remote repo and try to merge into the current branch | `git pull origin` |
+| `git push` | Push new branches and data to a remote repository | `git push origin master` |
