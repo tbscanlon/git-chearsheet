@@ -41,6 +41,7 @@ Resolving deltas: 100% (6/6), done.
 | `git branch` | List, create and manage branches | `git branch top-secret` |
 | `git merge` | Merge a branch into your current one | `git merge dev` |
 | `git log` | Show a branch's history | `git log --oneline --graph` |
+| `git checkout` | Move between branches and commits | `git checkout faba307aa` |
 
 ## Sharing and Updating
 | Command        | Description           | Example  |
@@ -50,3 +51,9 @@ Resolving deltas: 100% (6/6), done.
 | `git fetch` | Download new branches and data from a remote repo | `git fetch origin` |
 | `git pull` | Fetch from a remote repo and try to merge into the current branch | `git pull origin` |
 | `git push` | Push new branches and data to a remote repository | `git push origin master` |
+
+## Inspection and Comparison
+| Command        | Description           | Example  |
+| -------------- |---------------------| --------|
+| `git log` | View and filter commit history | `git log --author=tbscanlon` |
+| `git diff` | See absolute changes between two commits | `git diff faba307aa` |
